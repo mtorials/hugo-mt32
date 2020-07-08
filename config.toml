@@ -5,7 +5,7 @@ theme = "edidor"
 
 defaultContentLanguage = "en"
 # you may not need this
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 
 # ----- feel free change these settings, those are not tied to this theme --
@@ -13,7 +13,7 @@ paginate = 5
 enableEmoji = true
 
 # to have better preview
-buildDrafts = "true"
+buildDrafts = "false"
 # helpful if you want to edit the site or theme code
 disableFastRender = false
 # --------------------------------------------------------------------------
@@ -32,16 +32,13 @@ googleAnalytics = "your ga id"
 # author, title, description are used in the home page, you can embed html tag in description
 [params]
     # will use AuthorName if you leave it blank, but you can set it to arbitrary text
-    author = "Ziox"
-    title = "ZIOX DEMO"
-    description = "A hugo site using Edidor. <br/><br/> Ctrl+B toggle sidebar. "
     # change it to false if you don't need syntax highlighting, and save a little bandwidth
     isHighlightCode = true
     # set true need to use custom js
     useCustomSyntaxHighlight = false
     customJs = []
     customCss = []
-    mode = "light"
+    mode = "dark"
 # menubar setting, you can change url, weight and name except the 'Theme'.
 [[menu.main]]
     name = "Article"
