@@ -1,9 +1,8 @@
 baseURL = "https://mtorials-test.netlify.app/"
-languageCode = "en-gb"
+languageCode = "en"
 title = "mt32.net"
 theme = "edidor"
 
-languageCode = "en"
 defaultContentLanguage = "en"
 # you may not need this
 hasCJKLanguage = true
