@@ -1,0 +1,27 @@
+---
+title: "Syntax Pls"
+date: 2020-07-08T16:44:08+02:00
+draft: fales
+---
+
+# Isn't this markdown?
+
+`Ok, so this is a codeblock?`
+
+```html
+<h1>A multiline codeblock<h1>
+<p>Does it work?<p>
+```
+
+I really would appreachiate some synatax highlighting!
+
+```kotlin
+val string: String = "Does this work?"
+println(string)
+```
+
+## Also smaller
+
+### And smaller headings should work fine!
+
+Ok! There we go!

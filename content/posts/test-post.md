@@ -1,7 +1,7 @@
 ---
 title: "Test Post"
 date: 2020-07-08T13:10:48+02:00
-draft: true
+draft: false
 ---
 
 # Heading?
