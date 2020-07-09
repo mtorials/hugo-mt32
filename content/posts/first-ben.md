@@ -1,6 +1,6 @@
 ---
 title: "first ben"
-date: 2020-07-09T21:33:20+01:00
+date: 2020-07-09
 draft: false
 description: "This is a first test-post!"
 tags: ["tag1", "tag2"]
