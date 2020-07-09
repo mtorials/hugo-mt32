@@ -1,6 +1,6 @@
 ---
 title: "Third"
-date: 2020-07-09T13:57:54+02:00
+date: 2020-07-09T13:57:54+01:00
 draft: true
 description: "Just to fill up some space!"
 tags: ["tag1", "tag2"]
