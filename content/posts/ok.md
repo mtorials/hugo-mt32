@@ -1,6 +1,6 @@
 ---
 title: "Ok"
-date: 2020-07-09T23:50:25+02:00
+date: 2020-07-08T23:50:25+02:00
 draft: false
 description: "It is fine!"
 tags: ["tag1", "tag2"]
