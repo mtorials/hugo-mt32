@@ -7,7 +7,7 @@
             <div class="postlink orange">
                 <h1>{{ .Title }}</h1>
                 <hr>
-                <a><i>by {{ .Params.author }}, {{ .Date }}</i></a>
+                <a><i>by {{ .Params.author }}, {{ .Date.Format "2006-01-02" }}</i></a>
                 <hr>
                 <p>{{ .Params.description }}</p>
                 <hr>
