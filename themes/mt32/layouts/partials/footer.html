@@ -1,8 +1,13 @@
-<div class="footer">
-    <a class="txtDark" href="{{ .Params.github }}">GitHub</a><br/>
-    <a class="txtDark" href="{{ .Params.facebook }}">Facebook</a><br/>
-    <a class="txtDark" href="{{ .Params.twitter }}">Twitter</a><br/>
-    <a class="txtDark" href="{{ .Params.reddit }}">Reddit</a><br/>
-    <br/>
-    <a>theme by <a class="txtDark" href="https://github.com/mtorials">m'torials</a></a>
-</div>
+<footer class="footer">
+    <div class="fullsize">
+        <a class="txtDark" href="{{ .Params.github }}">GitHub</a><br/>
+        <a class="txtDark" href="{{ .Params.facebook }}">Facebook</a><br/>
+        <a class="txtDark" href="{{ .Params.twitter }}">Twitter</a><br/>
+        <a class="txtDark" href="{{ .Params.reddit }}">Reddit</a><br/>
+        <br/>
+        <a>theme by <a class="txtDark" href="https://github.com/mtorials">m'torials</a></a>
+    </div>
+    <div class="flow-up">
+        <div class="txtDark">{{ .Site.Params.disclamer }}</div>
+    </div>
+</footer>

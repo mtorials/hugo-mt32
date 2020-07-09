@@ -1,15 +1,22 @@
 {{ define "main" }}
-{{ .Content }}
 <div class="box">
+    <div class="postlink txtWhite orange">
+        {{ .Content }}
+    </div>
     {{ range .Site.RegularPages.ByDate.Reverse }}
-        <div class="postlink txtWhite">
+        <div class="postlink txtWhite dark">
             <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
-            <a class="small txtWhite"> {{.Date.Format "2006-01-02"}}</a>
+            <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
             <p>
                 {{ .Params.description }}
             </p>
+            <hr>
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+            <hr>
             {{ range .Params.tags }}
-                {{- partial "tag.html" . -}}
+                <a class="tag orange">#{{ . }}</a>
             {{ end }}
         </div>
     {{ end }}

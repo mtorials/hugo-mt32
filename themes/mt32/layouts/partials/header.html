@@ -2,8 +2,9 @@
     <div class="header">
         <a class="heading txtWhite" href="/">{{ .Site.Title }}</a>
         <div class="flexbox-reverse">
-            <a class="link">Pages</a>
-            <a class="link">Posts</a>
+            {{ with .Site.GetPage "/" }}{{ range .Pages }}
+                <a class="link txtWhite" href="{{ .Permalink }}">{{ .Name }}</a>
+            {{ end }} {{ end }}
         </div>
     </div>
     <div class="titleImg">

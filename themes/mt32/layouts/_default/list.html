@@ -3,8 +3,29 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
+
+        {{ .Content }}
+        
+        <div class="box">
+        {{- range .Pages }}
+            <div class="postlink span-across dark">
+                <a class="heading" href="{{ .Permalink }}"><u class="txtWhite">{{ .Name }}</u></a>
+                <a class="small">by {{ .Params.author }}, {{ .Date }}</a><br>
+                <hr>
+                <p>
+                    {{ .Params.descrpition }}
+                </p>
+                <hr>
+                {{ range .Params.tags }}
+                    <a class="tag orange">#{{ . }}</a>                
+                {{ end }}
+            </div>
+        {{- end }}
+        </div>
+
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{- block "main" . }}
+        {{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

@@ -4,4 +4,6 @@ title = "mt32.net"
 theme = "mt32"
 
 [params]
-    description = "mt32net blog!"
+    a = "asdasd"
+    description = "The mt32.net blog!"
+    disclamer = "Copyright mtorials.de @2020"

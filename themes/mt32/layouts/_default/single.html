@@ -4,12 +4,20 @@
     <body>
         {{- partial "header.html" . -}}
         <div class="box">
-            <div class="postlink span">
+            <div class="postlink orange">
+                <h1>{{ .Title }}</h1>
+                <hr>
+                <a><i>by {{ .Params.author }}, {{ .Date }}</i></a>
+                <hr>
+                <p>{{ .Params.description }}</p>
+                <hr>
+                {{ range .Params.tags }}
+                    <a class="tag dark">#{{ . }}</a>
+                {{ end }}
+            </div>
+            <div class="postlink span-wide dark">
                 {{- block "main" . }}
-                    <u class="heading">{{ .Title }}</u><br/>
-                    <a><i>by {{ .Params.author }}, {{ .Date }}</i></a>
-                    <hr>
-                    {{ .Content }}
+                    <div class="">{{ .Content }}</div>
                 {{- end }}
             </div>
         </div>

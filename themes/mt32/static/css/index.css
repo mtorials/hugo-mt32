@@ -8,7 +8,7 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1em 1em;
 
     background-color: white;
@@ -19,17 +19,36 @@ body {
 .postlink {
     padding: 1.5em;
     border-radius: 15px;
-    background-color: #1E2227;
     color: white;
 }
 
 .span {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: span 2;
+}
+
+.span-wide {
+    grid-column: span 3;
+}
+
+.span-across {
+    grid-column: 1/-1;
+}
+
+.tag {
+    border-radius: 15px;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin-right: 0.5em;
 }
 
 .content {
     padding: 1em;
+}
+
+.post-content {
+    margin-left: 1em;
+    max-height: 300px;
+    overflow: hidden;
 }
 
 .hSmall {
@@ -41,7 +60,7 @@ body {
 }
 
 .small {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 
@@ -51,4 +70,12 @@ body {
 
 .txtDark {
     color: black;
+}
+
+.dark {
+    background-color: #1E2227;
+}
+
+.orange {
+    background-color: orangered;
 }
