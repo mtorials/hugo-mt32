@@ -7,3 +7,15 @@ theme = "mt32"
     a = "asdasd"
     description = "The mt32.net blog!"
     disclamer = "Copyright mtorials.de @2020"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "solarized-dark256"
+    tabWidth = 4
