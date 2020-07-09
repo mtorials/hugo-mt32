@@ -1,3 +1,8 @@
+* {
+    scrollbar-color: orangered #1E2227;
+    scrollbar-width: ;
+}
+
 body {
     font-family: 'Inconsolata', monospace;
     background-color: #1E2227;
@@ -8,17 +13,7 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-    gap: 1em 1em;
-
-    background-color: white;
-    border-radius: 15px;
-    padding: 0.6em;
-}
-
-.box2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em 1em;
 
     background-color: white;
@@ -57,7 +52,7 @@ body {
 
 .post-content {
     margin-left: 1em;
-    max-height: 300px;
+    max-height: 250px;
     overflow: hidden;
 }
 
