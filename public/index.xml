@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on mt32.net</title>
+    <link>https://mtorials-test.netlify.app/</link>
+    <description>Recent content in Index on mt32.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Jul 2020 20:05:51 +0200</lastBuildDate>
+    
+	<atom:link href="https://mtorials-test.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syntax Pls</title>
+      <link>https://mtorials-test.netlify.app/posts/syntax-pls/</link>
+      <pubDate>Wed, 08 Jul 2020 16:44:08 +0100</pubDate>
+      
+      <guid>https://mtorials-test.netlify.app/posts/syntax-pls/</guid>
+      <description>Isn&amp;rsquo;t this markdown? Ok, so this is a codeblock?
+&amp;lt;h1&amp;gt;A multiline codeblock&amp;lt;h1&amp;gt; &amp;lt;p&amp;gt;Does it work?&amp;lt;p&amp;gt; I really would appreachiate some synatax highlighting!
+val string: String = &amp;#34;Does this work?&amp;#34; println(string) Also smaller And smaller headings should work fine! Ok! There we go!</description>
+    </item>
+    
+    <item>
+      <title>Test Post</title>
+      <link>https://mtorials-test.netlify.app/posts/test-post/</link>
+      <pubDate>Wed, 08 Jul 2020 13:10:48 +0100</pubDate>
+      
+      <guid>https://mtorials-test.netlify.app/posts/test-post/</guid>
+      <description>Heading? Yes, this should look like a h1 heading</description>
+    </item>
+    
+  </channel>
+</rss>

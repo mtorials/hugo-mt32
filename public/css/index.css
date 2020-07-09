@@ -1,0 +1,44 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #1E2227;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em 1em;
+
+    background-color: white;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.hSmall {
+    font-size: 1.5em;
+}
+
+.heading {
+    font-size: 2em;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+.postlink {
+    padding: 1.5em;
+    border-radius: 15px;
+    background-color: #1E2227;
+    color: white;
+}
+
+.txtWhite {
+    color: white;
+}
+
+.txtDark {
+    color: black;
+}

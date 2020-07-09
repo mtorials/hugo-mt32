@@ -1,7 +1,10 @@
 ---
 title: "Syntax Pls"
-date: 2020-07-08T16:44:08+02:00
+date: 2020-07-08T16:44:08+01:00
 draft: false
+description: "How to write a blog post!"
+tags: ["tag1", "tag2"]
+author: "mtorials"
 ---
 
 # Isn't this markdown?

@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ .Content }}
+<div class="box">
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+        <div class="postlink txtWhite">
+            <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
+            <a class="small txtWhite"> {{.Date.Format "2006-01-02"}}</a>
+            <p>
+                {{ .Params.description }}
+            </p>
+            {{ range .Params.tags }}
+                {{- partial "tag.html" . -}}
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+{{ end }}
