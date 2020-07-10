@@ -33,4 +33,4 @@ Downsides!!!!!
 
 After too much frustration about not being able to easily deploy an already finished website I suspended this project but I did not plan on giving up completely. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website.
 
-When I discovered Hugo by coincidence 
+When I discovered Hugo by coincidence I was interested, because it is neither a CMS in the traditional way nor needs it APIs and JavaScript to work. It is instead a static side generator. It renders the whole website before you deploy it. That does mean that static side generator are not suited for use cases in which you have to update your content regularly. But in case of a blog this not necessary. You only have to deploy the website when you post something new.
