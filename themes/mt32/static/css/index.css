@@ -35,11 +35,6 @@ body {
     color: white;
 }
 
-.textcontent {
-    padding-left: 3em;
-    padding-right: 5em;
-}
-
 .follow {
     position: -webkit-sticky; /* Safari */
     position: sticky;
