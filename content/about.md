@@ -24,6 +24,8 @@ This blog is run by [mtorials](https://mtorials.de/), [universum](http://univers
 
 ### Contributing
 
+[The GitHub repo](https://github.com/mtorials/hugo-mt32).
+
 If you want to contribute to this website, visit the github page and open a issue or pull request!
 
 I hope you find this website helpful!
