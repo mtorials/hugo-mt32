@@ -10,7 +10,7 @@
         {{- range .Pages }}
             <div class="postlink span-across dark">
                 <a class="heading" href="{{ .Permalink }}"><u class="txtWhite">{{ .Name }}</u></a>
-                <a class="small">by {{ .Params.author }}, {{ .Date }}</a><br>
+                <a class="small">by {{ .Params.author }}, {{ .Date.Format "2006-01-02" }}</a><br>
                 <hr>
                 <p>
                     {{ .Params.description }}
