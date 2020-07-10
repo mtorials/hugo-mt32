@@ -36,8 +36,8 @@ body {
 }
 
 .textcontent {
-    padding-left: 4em;
-    padding-right: 6em;
+    padding-left: 3em;
+    padding-right: 5em;
 }
 
 .follow {
@@ -45,7 +45,7 @@ body {
     position: sticky;
     top: 2.5em;
     text-align: left;
-    margin-right: 25%;
+    margin-right: 10%;
 }
 
 .span {
