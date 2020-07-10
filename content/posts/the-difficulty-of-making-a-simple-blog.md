@@ -15,4 +15,8 @@ When I first had the idea of creating a website to share my ideas and problems r
 
 ### Headless CMS
 
-Because I wanted to write my own frontend or at least my own layout and style, I searched for an headless content management system (headless CMS). I also wanted to use GraphQL instead of a standard RESTful API. In retrospect this was not a very smart requirement, because my idea of a blog does not really need the benefits of GraphQL. Also it was very hard to find a production ready headless CMS with GraphQL support.
+Because I wanted to write my own frontend or at least my own layout and style, I searched for an headless content management system (headless CMS). I also wanted to use GraphQL instead of a standard RESTful API. In retrospect this was not a very smart requirement, because my idea of a blog does not really need the benefits of GraphQL. Also it was very hard to find a production ready headless CMS with GraphQL support. After trying various CMSs without ever beeing happy with one I decided that it can not be so hard to write my own backend.
+
+### Reinventing the wheel
+
+At this point 
