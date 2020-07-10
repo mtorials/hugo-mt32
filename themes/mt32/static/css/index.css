@@ -4,7 +4,7 @@
 }
 
 img {
-    max-width: 90%;
+    width: 90%;
     border-radius: 15px;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -39,6 +39,7 @@ body {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 2.5em;
+    text-align: left;
 }
 
 .span {
