@@ -10,4 +10,4 @@ author: "UniversumGames"
 # Hello World
 
 Test: 
-[logo] https://universegame.de/img/universegame1.d782e9c2.png
+![logo](https://universegame.de/img/universegame1.d782e9c2.png)
