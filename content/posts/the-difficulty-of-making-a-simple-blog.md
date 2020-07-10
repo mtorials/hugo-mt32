@@ -45,6 +45,6 @@ Netlify is a tool to deploy websites easily. You just have to connect it to a Gi
 
 > The fastes way to build the fastest sites
 
-...was not an overstatement in my case. Especially together with Hugo, the 
+...was not an overstatement by Netlify in my case. Especially together with Hugo, the 
 
 > The world’s fastest framework for building websites.
