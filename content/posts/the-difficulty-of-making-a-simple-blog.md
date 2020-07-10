@@ -7,3 +7,6 @@ tags = ["hugo", "blog", "webdev"]
 title = "The difficulty of making a simple blog"
 
 +++
+## The start of mt32.net
+
+When I first had the idea of creating a website to share my ideas and problems related to programming, I already heard of the most important rule for programmers a long time ago: Don't reinvent the wheel!
