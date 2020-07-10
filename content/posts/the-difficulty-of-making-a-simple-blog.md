@@ -41,4 +41,10 @@ Also Hugo does not rely on the JavaScript ecosystem and to write my own theme I 
 
 Having to upload the newly rendered website via FTP every time you change something is a bit tedious and an argument against a solution like this when I started. But when I learned Netlify has an integration for Hugo I decided to give it a try.
 
-Netlify is a tool to deploy websites easily. You just have to connect it to a Git repository, done. After logging in with my already existing GitHub account I was able to deploy my Hugo website I made with exactly two commands a few minutes earlier 
+Netlify is a tool to deploy websites easily. You just have to connect it to a Git repository, done. After logging in with my already existing GitHub account I was able to deploy my Hugo website I made with exactly two commands a few minutes earlier. And on every commit Netlify builds and updates the website. Although I really like my VPS running Nginx I found this way of getting your own website up stunningly fast and easy.
+
+> The fastes way to build the fastest sites
+
+...was not an overstatement in my case. Especially together with Hugo, the 
+
+> The world’s fastest framework for building websites.
