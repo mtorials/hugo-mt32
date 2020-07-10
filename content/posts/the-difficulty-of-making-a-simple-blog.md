@@ -28,3 +28,5 @@ The first and finished version of this page was a overengineered website with lo
 Ok, I was not actually using it. After programming this for months I tried to deploy it and I failed. I did not know how to use docker properly but I had to use it for Prisma and the database. Also setting up my node project for deployment on my virtual server (VPS) was harder then I thought it would be. The extra step from TypeScript to JavaScript did not help there either.
 
 ### Hugo and Netlify
+
+After too much frustration about not being able to easily deploy an already finished website I suspended this project but I did not plan on giving up completely. I never liked idea 
