@@ -3,7 +3,7 @@
     <div class="postlink txtWhite orange">
         {{ .Content }}
     </div>
-    {{ range .Site.RegularPages.ByDate.Reverse }}
+    {{ with .Site.GetPage "/posts" }}{{ range .Pages.ByDate.Reverse }}
         <div class="postlink txtWhite dark">
             <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
             <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
@@ -19,6 +19,6 @@
                 <a class="tag orange">#{{ . }}</a>
             {{ end }}
         </div>
-    {{ end }}
+    {{ end }} {{ end }}
 </div>
 {{ end }}

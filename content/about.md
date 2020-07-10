@@ -3,6 +3,7 @@ title: "About"
 date: 2020-07-08T20:05:51+02:00
 description: "The About Page"
 author: "mtorials"
+tags: ["meta"]
 ---
 
 ## Welcome to mt32.net!

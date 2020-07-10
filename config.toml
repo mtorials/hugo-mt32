@@ -4,9 +4,12 @@ title = "mt32.net"
 theme = "mt32"
 
 [params]
-    a = "asdasd"
-    description = "The mt32.net blog!"
-    disclamer = "Copyright mtorials.de @2020"
+  description = "The mt32.net blog!"
+  disclamer = "Copyright mtorials.de @2020"
+  github = "https://github.com/mtorials"
+  youtube = "https://www.youtube.com/channel/UCe3IgjqCm5YZ6YSeAkohnNA"
+  twitter = "https://twitter.com/universumgames"
+
 
 [markup]
   [markup.highlight]

@@ -1,9 +1,11 @@
 <footer class="footer">
     <div class="fullsize txtDark">
-        <a class="txtDark" href="{{ .Params.github }}">GitHub</a><br/>
-        <a class="txtDark" href="{{ .Params.facebook }}">Facebook</a><br/>
-        <a class="txtDark" href="{{ .Params.twitter }}">Twitter</a><br/>
-        <a class="txtDark" href="{{ .Params.reddit }}">Reddit</a><br/>
+        {{ if isset .Site.Params "github" }}<a class="txtDark" href="{{ .Site.Params.github }}">GitHub</a><br/>{{ end }}
+        {{ if isset .Site.Params "facebook" }}<a class="txtDark" href="{{ .Site.Params.facebook }}">Facebook</a><br/>{{ end }}
+        {{ if isset .Site.Params "twitter" }}<a class="txtDark" href="{{ .Site.Params.twitter }}">Twitter</a><br/>{{ end }}
+        {{ if isset .Site.Params "reddit" }}<a class="txtDark" href="{{ .Site.Params.reddit }}">Reddit</a><br/>{{ end }}
+        {{ if isset .Site.Params "instagram" }}<a class="txtDark" href="{{ .Site.Params.instagram }}">Instagram</a><br/>{{ end }}
+        {{ if isset .Site.Params "youtube" }}<a class="txtDark" href="{{ .Site.Params.youtube }}">YouTube</a><br/>{{ end }}
         <br/>
         <a class="txtDark">theme by <a class="txtDark" href="https://github.com/mtorials">m'torials</a></a>
     </div>
