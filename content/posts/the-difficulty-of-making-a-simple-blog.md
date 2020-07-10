@@ -31,10 +31,12 @@ Downsides!!!!! - SSR
 
 ### Hugo
 
-After too much frustration about not being able to easily deploy an already finished website I suspended this project but I did not plan on giving up completely. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website.
+After too much frustration about not being able to easily deploy an already finished website I suspended this project. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website anyway. But I did not plan on giving up completely.
 
-When I discovered Hugo by coincidence I was interested, because it neither is a CMS in the traditional way nor has it the need for an API and JavaScript/Ajax on the frontend to work. It instead is a static side generator. It renders the whole website before you deploy it. That does mean that static side generator are not suited for use cases in which you have to update your content regularly. But in case of a blog this not necessary. You only have to deploy the website when you post something new.
+When I discovered Hugo by coincidence I was interested, because it neither is a CMS in the traditional way nor has it the need for an API and JavaScript/AJAX on the frontend to work. It instead is a static side generator. It renders the whole website before you deploy it. That does mean that static side generator are not suited for use cases in which you have to update your content regularly. But in case of a blog this not necessary. You only have to deploy the website when you post something new.
 
 Also Hugo does not rely on the JavaScript ecosystem and to write my own theme I only had to learn a few line of the Go HTML Templating Language and not a whole JavaScript framework.
 
 ### Continuous Deployment
+
+Having to upload the newly rendered website via FTP every time you change something is a bit tedious and an argument against a solution when I started. But when I learned Netlify has an integration for Hugo I decided to give it a try.
