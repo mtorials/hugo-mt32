@@ -29,4 +29,4 @@ Ok, I was not actually using it. After programming this for months I tried to de
 
 ### Hugo and Netlify
 
-After too much frustration about not being able to easily deploy an already finished website I suspended this project but I did not plan on giving up completely. I never liked idea 
+After too much frustration about not being able to easily deploy an already finished website I suspended this project but I did not plan on giving up completely. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website.
