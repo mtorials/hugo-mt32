@@ -5,15 +5,17 @@
         {{- partial "header.html" . -}}
         <div class="box">
             <div class="postlink orange">
-                <h1>{{ .Title }}</h1>
-                <hr>
-                <a><i>by {{ .Params.author }}, {{ .Date.Format "2006-01-02" }}</i></a>
-                <hr>
-                <p>{{ .Params.description }}</p>
-                <hr>
-                {{ range .Params.tags }}
-                    <a class="tag dark">#{{ . }}</a>
-                {{ end }}
+                <div class="follow">
+                    <h1>{{ .Title }}</h1>
+                    <hr>
+                    <a><i>by {{ .Params.author }}, {{ .Date.Format "2006-01-02" }}</i></a>
+                    <hr>
+                    <p>{{ .Params.description }}</p>
+                    <hr>
+                    {{ range .Params.tags }}
+                        <a class="tag dark">#{{ . }}</a>
+                    {{ end }}
+                </div>
             </div>
             <div class="postlink span-wide dark">
                 {{- block "main" . }}

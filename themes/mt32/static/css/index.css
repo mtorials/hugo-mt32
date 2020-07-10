@@ -4,10 +4,11 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 15px;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    margin-right: 10%;
 }
 
 body {
@@ -32,6 +33,12 @@ body {
     padding: 1.5em;
     border-radius: 15px;
     color: white;
+}
+
+.follow {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 2.5em;
 }
 
 .span {
