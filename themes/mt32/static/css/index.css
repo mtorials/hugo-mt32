@@ -21,7 +21,7 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 1em 1em;
 
     background-color: white;
@@ -40,7 +40,6 @@ body {
     position: sticky;
     top: 2.5em;
     text-align: left;
-    margin-right: 10%;
 }
 
 .span {
@@ -64,12 +63,13 @@ body {
 
 .content {
     padding: 1em;
+
 }
 
 .post-content {
     margin-left: 1em;
-    max-height: 250px;
     overflow: hidden;
+    max-height: 250px;
 }
 
 .hSmall {
@@ -83,7 +83,6 @@ body {
 .small {
     font-size: 0.8em;
 }
-
 
 .txtWhite {
     color: white;
