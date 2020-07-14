@@ -1,10 +1,10 @@
 +++
 author = "mtorials"
 date = 2020-07-10T22:00:00Z
-description = "Web technologies are getting more and more complex.This is how I found my way to this blog."
+description = "Web technologies are getting more and more complex. This is how I found my way to this blog."
 tags = ["hugo", "blog", "webdev"]
 title = "The difficulty of making a simple blog"
-
+draft = true
 +++
 # The start of mt32.net
 
@@ -29,6 +29,8 @@ Ok, I was not actually using it. After programming this for months I tried to de
 Downsides!!!!! - SSR
 
 ## Hugo
+
+![hugo](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
 
 After too much frustration about not being able to easily deploy an already finished website I suspended this project. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website anyway. But I did not plan on giving up completely.
 

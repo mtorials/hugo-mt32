@@ -35,6 +35,10 @@ body {
     color: white;
 }
 
+.content-inner {
+    max-width: 100ch;
+}
+
 .follow {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -47,7 +51,7 @@ body {
 }
  
 .span-wide {
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 .span-across {
@@ -98,4 +102,9 @@ body {
 
 .orange {
     background-color: orangered;
+}
+
+.headdiv {
+    border-radius: 15px;
+    padding: 1rem;
 }
