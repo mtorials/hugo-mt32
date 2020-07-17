@@ -11,7 +11,7 @@ title = "Configuring an X Server Multi GPU Setup"
 
 This blog post is about how I made my multi monitor and multi gpu setup work with Manjaro Linux.
 
-_*Disclamer: This is how I was able to fix this problem. This may work for other, but I can not guarantee this. This is NOT a guide!*_
+*Disclamer: This is how I was able to fix this problem. This may work for other, but I can not guarantee this. This is NOT a guide!*
 
 ## My Setup
 
@@ -21,13 +21,13 @@ The more or less unusual thing is that I have monitors connected to both my inte
 
 ## Where the Problems Started
 
-After I installed Manjaro and everything worked fine with the free drivers I installed the \[cuda\]([https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA "https://en.wikipedia.org/wiki/CUDA")) package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
+After I installed Manjaro and everything worked fine with the free drivers I installed the \[cuda\]([https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA) package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
 
 I went on trying different drivers. I got the to the Nvidia card connected monitors eventually to work by applying the nvidia X server configuration with this command:
 
     nvidia-xconfig
 
-But then the monitors connected to the integrated graphics stayed black. I thought that I might have to configure the X server myself. This \[forum post\]([https://forum.manjaro.org/t/how-to-add-a-second-monitor-connected-to-the-integrated-graphics-card-not-the-dedicated-one/107158](https://forum.manjaro.org/t/how-to-add-a-second-monitor-connected-to-the-integrated-graphics-card-not-the-dedicated-one/107158 "https://forum.manjaro.org/t/how-to-add-a-second-monitor-connected-to-the-integrated-graphics-card-not-the-dedicated-one/107158")) confirmed that.
+But then the monitors connected to the integrated graphics stayed black. I thought that I might have to configure the X server myself. This [forum post](https://forum.manjaro.org/t/how-to-add-a-second-monitor-connected-to-the-integrated-graphics-card-not-the-dedicated-one/107158) confirmed that.
 
 ## Fixing Parts
 
