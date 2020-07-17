@@ -17,4 +17,4 @@ I use a multi monitor setup with a descrete graphics card (1050ti) and an integr
 
 ## Where the Problems started
 
-After I installed Manjaro and everything worked fine with the free drivers I installed the \[cuda\]([https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA "https://en.wikipedia.org/wiki/CUDA")) package
+After I installed Manjaro and everything worked fine with the free drivers I installed the \[cuda\]([https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA "https://en.wikipedia.org/wiki/CUDA")) package and rebooted. After this only the monitors connected to the integrated graphics worked. 
