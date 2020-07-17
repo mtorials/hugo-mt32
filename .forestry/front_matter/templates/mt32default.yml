@@ -18,4 +18,5 @@ fields:
   name: author
   label: author
 pages:
+- content/posts/configuring-x-server-multi-gpu-setup.md
 - content/posts/the-difficulty-of-making-a-simple-blog.md
