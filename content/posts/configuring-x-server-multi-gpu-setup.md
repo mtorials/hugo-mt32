@@ -50,4 +50,20 @@ I found the bus ID of the Intel graphics with the command:
 
     inxi -Fx
 
-I now had two devices in my xorg config. Sometimes you have to enable the 
+I now had two devices in my xorg config. And this was the fix!
+
+Sometimes you have to also enable the monitors. I was able to this with the graphical tool in Manjaro, but you should be able to use xrandr for this.
+
+## Troubleshooting
+
+If you want to know whether your second device (graphics (card)) is detected or not, you can use
+
+     xrandr --listproviders
+
+## Problems Remaining
+
+I sadly was not able to rotate my monitor connected to the integrated graphics. It resulted in inconsistent and strange behavior while not filling the screen space with content. I eventually "fixed" this by rotating the monitor back to its normal rotation.
+
+## Conclusion
+
+Windows handles it better...... But maybe this was still helpful to you! If not, it will be for my future me.
