@@ -5,7 +5,8 @@ theme = "mt32"
 
 [params]
   description = "The mt32.net blog!"
-  disclamer = "Copyright mtorials.de @2020"
+  disclamer = "The content of this website is licensed under the CC BY-NC-SA 4.0 license. No warrenties apply."
+  license = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   github = "https://github.com/mtorials"
   youtube = "https://www.youtube.com/channel/UCe3IgjqCm5YZ6YSeAkohnNA"
   twitter = "https://twitter.com/universumgames"
