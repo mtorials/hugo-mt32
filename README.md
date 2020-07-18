@@ -12,4 +12,5 @@ The theme is licensed under the MIT license. Feel free to use and mofidy it for 
 
 ### Content
 
-The content of this website is licesed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license
+The content of this website is licesed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Content means the actual posts and texts under the `conten` directory.
