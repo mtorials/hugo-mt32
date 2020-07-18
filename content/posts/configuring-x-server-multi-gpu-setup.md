@@ -15,15 +15,15 @@ _Disclamer: This is how I was able to fix this problem. This may work for others
 
 ## My Setup
 
-I use a multi monitor setup with a discrete graphics card (1050ti) and an integrated Intel HD Graphics. Manjaro, the linux distribution of my choice, offers not only proprietary Nvidia drivers but also special drivers to work with Intel and Nvidia together. Features of these special drivers called "prime" and "bumblebee" are for example power savings on laptops by using Intel graphics for lighter tasks.
+I use a multi monitor setup with a discrete graphics card (1050ti) and an integrated Intel HD Graphics. Manjaro, the linux distribution of my choice, offers not only proprietary Nvidia drivers but also special drivers to work with Intel and Nvidia together. Features of these special drivers called "prime" and "bumblebee" are for example power savings on laptops by using Intel graphics for lighter workloads.
 
-The more or less unusual thing is that I have monitors connected to both my integrated as well as my discrete card.
+The more or less unusual thing with my setup is that I have monitors connected to both my integrated as well as my discrete card.
 
 ## Where the Problems Started
 
-After I installed Manjaro and everything worked fine with the free drivers I installed the \[cuda\]([https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA) package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
+After I installed Manjaro and everything worked fine with the free drivers I installed the [https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA "cuda") package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
 
-I went on trying different drivers. I got the to the Nvidia card connected monitors eventually to work by applying the nvidia X server configuration with this command:
+I went on trying different drivers. I got the to the Nvidia card connected monitors eventually to work by applying the Nvidia X server configuration with this command:
 
     nvidia-xconfig
 
@@ -37,7 +37,7 @@ In copied the Nvidia configuration file and copied it from /etc/X11/xorg.conf to
     sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.old
     sudo nano /etc/X11/xorg.conf.d/myconfig.conf
 
-I copied the "Device" section and then edit it to make it look like this:
+I copied the "Device" section and then edited it to make it look like this:
 
     Section "Device"
         Identifier     "Device1"
@@ -52,7 +52,7 @@ I found the bus ID of the Intel graphics with the command:
 
 I now had two devices in my xorg config. And this was the fix!
 
-Sometimes you have to also enable the monitors. I was able to this with the graphical tool in Manjaro, but you should be able to use xrandr for this.
+Sometimes you have to also enable the monitors. I was able to do this with the graphical tool in Manjaro, but you should be able to use xrandr for this.
 
 ## Troubleshooting
 
@@ -66,4 +66,4 @@ I sadly was not able to rotate my monitor connected to the integrated graphics. 
 
 ## Conclusion
 
-Windows handles it better...... But maybe this was still helpful to you! If not, it will be for my future me.
+Windows handles it better...... But maybe this was still helpful to you! If not, it will be helpful the next time I install Manjaro.
