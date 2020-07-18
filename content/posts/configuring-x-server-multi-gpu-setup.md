@@ -11,7 +11,7 @@ title = "Configuring an X Server Multi GPU Setup"
 
 This blog post is about how I made my multi monitor and multi gpu setup work with Manjaro Linux.
 
-*Disclamer: This is how I was able to fix this problem. This may work for other, but I can not guarantee this. This is NOT a guide!*
+_Disclamer: This is how I was able to fix this problem. This may work for others, but I can not guarantee this. This is NOT a guide!_
 
 ## My Setup
 
