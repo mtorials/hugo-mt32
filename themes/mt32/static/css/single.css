@@ -1,5 +1,8 @@
 .side {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.gap {
+    margin-bottom: 1em;
 }

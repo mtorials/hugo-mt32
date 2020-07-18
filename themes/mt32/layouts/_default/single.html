@@ -17,17 +17,17 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="postlink dark">
+            <div class="postlink span-wide dark">
                 {{- block "main" . }}
                     <div class="content-inner">{{ .Content }}</div>
                 {{- end }}
             </div>
             <aside class="side">
-                <div class="orange headdiv">
+                <div class="orange headdiv gap">
                     <u><a class="heading">Further Reading</a></u>
                 </div>
                 {{ with .Site.GetPage "/posts" }}{{ range .Pages.ByDate.Reverse }}
-                    <div class="postlink txtWhite dark">
+                    <div class="postlink txtWhite dark gap">
                         <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
                         <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
                         <p>
