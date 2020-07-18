@@ -21,7 +21,7 @@ The more or less unusual thing with my setup is that I have monitors connected t
 
 ## Where the Problems Started
 
-After I installed Manjaro and everything worked fine with the free drivers I installed the [https://en.wikipedia.org/wiki/CUDA](https://en.wikipedia.org/wiki/CUDA "cuda") package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
+After I installed Manjaro and everything worked fine with the free drivers I installed the [cuda](https://en.wikipedia.org/wiki/CUDA) package and rebooted. After this only the monitors connected to the integrated graphics worked. I then installed the proprietary drivers for the Nvidia card. This did not solve the problem.
 
 I went on trying different drivers. I got the to the Nvidia card connected monitors eventually to work by applying the Nvidia X server configuration with this command:
 
