@@ -1,4 +1,4 @@
-baseURL = "https://mtorials-test.netlify.app/"
+baseURL = "https://mt32.netlify.app/"
 languageCode = "en-us"
 title = "mt32.net"
 theme = "mt32"
