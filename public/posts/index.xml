@@ -6,29 +6,36 @@
     <description>Recent content in Posts on mt32.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 16:44:08 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mtorials-test.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Syntax Pls</title>
-      <link>https://mtorials-test.netlify.app/posts/syntax-pls/</link>
-      <pubDate>Wed, 08 Jul 2020 16:44:08 +0100</pubDate>
+      <title>Hello World</title>
+      <link>https://mtorials-test.netlify.app/posts/hello-world/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/posts/syntax-pls/</guid>
-      <description>Isn&amp;rsquo;t this markdown? Ok, so this is a codeblock?
-&amp;lt;h1&amp;gt;A multiline codeblock&amp;lt;h1&amp;gt; &amp;lt;p&amp;gt;Does it work?&amp;lt;p&amp;gt; I really would appreachiate some synatax highlighting!
-val string: String = &amp;#34;Does this work?&amp;#34; println(string) Also smaller And smaller headings should work fine! Ok! There we go!</description>
+      <guid>https://mtorials-test.netlify.app/posts/hello-world/</guid>
+      <description>Hello World Ok! So here is something in front of this picture! Is the margin right? And here is some more text but it is not anymore at the same place relative to the picture!</description>
     </item>
     
     <item>
-      <title>Test Post</title>
-      <link>https://mtorials-test.netlify.app/posts/test-post/</link>
-      <pubDate>Wed, 08 Jul 2020 13:10:48 +0100</pubDate>
+      <title>Hugo</title>
+      <link>https://mtorials-test.netlify.app/posts/hugo/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/posts/test-post/</guid>
-      <description>Heading? Yes, this should look like a h1 heading</description>
+      <guid>https://mtorials-test.netlify.app/posts/hugo/</guid>
+      <description>This Website I wanted a way to create a website like this. A way to lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
+    </item>
+    
+    <item>
+      <title>Layout</title>
+      <link>https://mtorials-test.netlify.app/posts/layout/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mtorials-test.netlify.app/posts/layout/</guid>
+      <description>To Save The Layout! lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
     </item>
     
   </channel>

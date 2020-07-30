@@ -1,3 +1,16 @@
+* {
+    scrollbar-color: orangered #1E2227;
+    color: white;
+}
+
+img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 10%;
+}
+
 body {
     font-family: 'Inconsolata', monospace;
     background-color: #1E2227;
@@ -8,12 +21,59 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 1em 1em;
 
     background-color: white;
     border-radius: 15px;
+    padding: 0.6em;
+}
+
+.postlink {
+    padding: 1.5em;
+    border-radius: 15px;
+    color: white;
+}
+
+.content-inner {
+    max-width: 100ch;
+}
+
+.follow {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 2.5em;
+    text-align: left;
+}
+
+.span {
+    grid-column: span 2;
+}
+ 
+.span-wide {
+    grid-column: span 2;
+}
+
+.span-across {
+    grid-column: 1/-1;
+}
+
+.tag {
+    border-radius: 15px;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin-right: 0.5em;
+}
+
+.content {
     padding: 1em;
+
+}
+
+.post-content {
+    margin-left: 1em;
+    overflow: hidden;
+    max-height: 250px;
 }
 
 .hSmall {
@@ -25,14 +85,7 @@ body {
 }
 
 .small {
-    font-size: 0.7em;
-}
-
-.postlink {
-    padding: 1.5em;
-    border-radius: 15px;
-    background-color: #1E2227;
-    color: white;
+    font-size: 0.8em;
 }
 
 .txtWhite {
@@ -41,4 +94,17 @@ body {
 
 .txtDark {
     color: black;
+}
+
+.dark {
+    background-color: #1E2227;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.headdiv {
+    border-radius: 15px;
+    padding: 1rem;
 }

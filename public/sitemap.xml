@@ -3,38 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mtorials-test.netlify.app/</loc>
-    <lastmod>2020-07-08T20:05:51+02:00</lastmod>
+    <loc>https://mtorials-test.netlify.app/tags/beginner/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/tags/gamedev/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/posts/hello-world/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/posts/hugo/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/posts/layout/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/tags/meta/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mtorials-test.netlify.app/posts/</loc>
-    <lastmod>2020-07-08T16:44:08+01:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mtorials-test.netlify.app/posts/syntax-pls/</loc>
-    <lastmod>2020-07-08T16:44:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mtorials-test.netlify.app/tags/tag1/</loc>
-    <lastmod>2020-07-08T13:10:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mtorials-test.netlify.app/tags/tag2/</loc>
-    <lastmod>2020-07-08T13:10:48+01:00</lastmod>
+    <loc>https://mtorials-test.netlify.app/tags/staticsitegenerator/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mtorials-test.netlify.app/tags/</loc>
-    <lastmod>2020-07-08T13:10:48+01:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mtorials-test.netlify.app/posts/test-post/</loc>
-    <lastmod>2020-07-08T13:10:48+01:00</lastmod>
+    <loc>https://mtorials-test.netlify.app/tags/uselss/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/tags/web/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/tags/website/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/about/</loc>
+    <lastmod>2020-07-08T20:05:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mtorials-test.netlify.app/</loc>
+    <lastmod>2020-07-08T20:05:51+02:00</lastmod>
   </url>
   
   <url>
