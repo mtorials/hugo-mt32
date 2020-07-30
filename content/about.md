@@ -30,7 +30,8 @@ and hopefully occasional guest writers! We are two hobby programmers with some e
 
 If you want to contribute to this website, visit the github page and open a issue or pull request!
 
-I hope you find this website helpful!
+I hope you find this website helpful.
+Thank you for reading!
 
 [universum](http://universegame.de/)
 ![universum](https://mtorials.de/stuff/universeicon0001.png)
