@@ -66,4 +66,4 @@ I sadly was not able to rotate my monitor connected to the integrated graphics. 
 
 ## Conclusion
 
-Windows handles it better...... But maybe this was still helpful to you! If not, it will be helpful the next time I install Manjaro.
+Windows handles it better...... But maybe this was still helpful for you! If not, it will be helpful the next time I install Manjaro.
