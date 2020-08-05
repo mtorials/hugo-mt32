@@ -8,7 +8,7 @@ A hugo website deploed with netlify!
 
 ### Theme
 
-The theme is licensed under the MIT license. Feel free to use and mofidy it for your own projects.
+The theme is licensed under the MIT license. Feel free to use and modify it for your own projects.
 
 ### Content
 
