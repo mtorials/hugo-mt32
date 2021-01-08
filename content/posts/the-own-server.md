@@ -9,6 +9,11 @@ author: "mtorials"
 
 # Your own server
 
+## System and configuration
+
+* Debian
+* Fish Shell
+
 ## What I want to run
 
 * docker
