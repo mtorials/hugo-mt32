@@ -14,6 +14,7 @@ author: "mtorials"
 * docker
 * nginx for static files and as reverse proxy
 * matrix homeserver synapse or dendrite
+* postgresql database
 * portainer to manage the containers
 * Jenkins for CI/CD
 * personal website
