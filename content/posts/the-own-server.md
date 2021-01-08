@@ -7,4 +7,17 @@ tags: ["server", "deployment"]
 author: "mtorials"
 ---
 
-# Your own homeserver
+# Your own server
+
+## What I want to run
+
+* docker
+* nginx for static files and as reverse proxy
+* matrix homeserver synapse or dendrite
+* portainer to manage the containers
+* Jenkins for CI/CD
+* personal website
+* mt32.net blog (hugo)
+* my bot
+* personal projects based on jvm
+* (jitsi)
