@@ -26,6 +26,7 @@ author: "mtorials"
 * personal website
 * mt32.net blog (hugo)
 * personal projects based on jvm (mtstats, dialbot)
+* (docker registry)
 * (searx meta search engine)
 * (jitsi)
 * (monitoring/netdata)
