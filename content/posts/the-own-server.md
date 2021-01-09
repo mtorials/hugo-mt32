@@ -13,6 +13,7 @@ author: "mtorials"
 
 * Debian
 * Fish Shell
+* UFW Firewall
 
 ## What I want to run
 
