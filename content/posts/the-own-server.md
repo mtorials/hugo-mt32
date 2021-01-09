@@ -30,4 +30,4 @@ author: "mtorials"
 * (docker registry)
 * (searx meta search engine)
 * (jitsi)
-* (monitoring/netdata)
+* netdata monitoring
