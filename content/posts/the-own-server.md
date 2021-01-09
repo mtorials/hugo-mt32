@@ -12,7 +12,7 @@ author: "mtorials"
 ## System and configuration
 
 * Debian
-* Fish Shell
+* ZSH Shell
 * UFW Firewall
 
 ## What I want to run
