@@ -12,7 +12,7 @@ author: "mtorials"
 ## System and configuration
 
 * Debian
-* ZSH Shell
+* ZSH and Oh My ZSH
 * UFW Firewall
 
 ## What I want to run
