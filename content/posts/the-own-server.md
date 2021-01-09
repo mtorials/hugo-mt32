@@ -19,15 +19,15 @@ author: "mtorials"
 
 * docker
 * nginx for static files and as reverse proxy
-* matrix homeserver synapse or dendrite
-* postgresql database
-* portainer to manage the containers
-* Jenkins for CI/CD
+* matrix homeserver synapse or dendrite (docker)
+* postgresql database (docker)
+* portainer to manage the containers (docker)
+* Jenkins for CI/CD (docker)
 * personal website
 * mt32.net blog (hugo)
-* personal projects based on jvm (mtstats, dialbot)
-* (next cloud)
-* (docker registry)
-* (searx meta search engine)
-* (jitsi)
-* netdata monitoring
+* personal projects based on jvm (mtstats, dialbot) (docker)
+* (next cloud) (docker)
+* (docker registry) (docker)
+* (searx meta search engine) (docker)
+* (jitsi) (docker)
+* netdata monitoring (docker)
