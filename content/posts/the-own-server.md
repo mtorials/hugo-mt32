@@ -24,7 +24,6 @@ author: "mtorials"
 * Jenkins for CI/CD
 * personal website
 * mt32.net blog (hugo)
-* my bot
-* personal projects based on jvm
+* personal projects based on jvm (mtstats, dialbot)
 * (jitsi)
 * (monitoring/netdata)
