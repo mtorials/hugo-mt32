@@ -31,3 +31,7 @@ author: "mtorials"
 * (searx meta search engine) (docker)
 * (jitsi) (docker)
 * netdata monitoring (docker)
+
+## Issues
+
+https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/
