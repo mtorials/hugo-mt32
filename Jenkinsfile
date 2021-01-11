@@ -3,6 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
+        sh '''ls -a -l
+hugo version'''
         sh 'hugo'
       }
     }
