@@ -35,3 +35,4 @@ author: "mtorials"
 ## Issues
 
 https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/
+https://github.com/docker/for-linux/issues/690
