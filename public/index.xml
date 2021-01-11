@@ -2,48 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on mt32.net</title>
-    <link>https://mtorials-test.netlify.app/</link>
+    <link>https://mt32.net/</link>
     <description>Recent content in Index on mt32.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 20:05:51 +0200</lastBuildDate>
-    
-	<atom:link href="https://mtorials-test.netlify.app/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 08 Jul 2020 20:05:51 +0200</lastBuildDate><atom:link href="https://mt32.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://mtorials-test.netlify.app/posts/hello-world/</link>
+      <link>https://mt32.net/posts/hello-world/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/posts/hello-world/</guid>
+      <guid>https://mt32.net/posts/hello-world/</guid>
       <description>Hello World Ok! So here is something in front of this picture! Is the margin right? And here is some more text but it is not anymore at the same place relative to the picture!</description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://mtorials-test.netlify.app/posts/hugo/</link>
+      <link>https://mt32.net/posts/hugo/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/posts/hugo/</guid>
+      <guid>https://mt32.net/posts/hugo/</guid>
       <description>This Website I wanted a way to create a website like this. A way to lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
     </item>
     
     <item>
       <title>Layout</title>
-      <link>https://mtorials-test.netlify.app/posts/layout/</link>
+      <link>https://mt32.net/posts/layout/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/posts/layout/</guid>
+      <guid>https://mt32.net/posts/layout/</guid>
       <description>To Save The Layout! lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://mtorials-test.netlify.app/about/</link>
+      <link>https://mt32.net/about/</link>
       <pubDate>Wed, 08 Jul 2020 20:05:51 +0200</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/about/</guid>
+      <guid>https://mt32.net/about/</guid>
       <description>Welcome to mt32.net! Content Have you ever had a computer related problem twice? The goal of this website is to create writeups for every of these tricky problems related to programming, hacking (with hardware), software in general and every other tech topic. Even if there is no one else with the same problem, we will not have to struggle twice!
 There will be also other content realted to personel projects with a focus on web dev and maybe game dev too.</description>
     </item>

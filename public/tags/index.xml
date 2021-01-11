@@ -2,75 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on mt32.net</title>
-    <link>https://mtorials-test.netlify.app/tags/</link>
+    <link>https://mt32.net/tags/</link>
     <description>Recent content in Tags on mt32.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mtorials-test.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mt32.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner</title>
-      <link>https://mtorials-test.netlify.app/tags/beginner/</link>
+      <link>https://mt32.net/tags/beginner/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/beginner/</guid>
+      <guid>https://mt32.net/tags/beginner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gamedev</title>
-      <link>https://mtorials-test.netlify.app/tags/gamedev/</link>
+      <link>https://mt32.net/tags/gamedev/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/gamedev/</guid>
+      <guid>https://mt32.net/tags/gamedev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meta</title>
-      <link>https://mtorials-test.netlify.app/tags/meta/</link>
+      <link>https://mt32.net/tags/meta/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/meta/</guid>
+      <guid>https://mt32.net/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>staticsitegenerator</title>
-      <link>https://mtorials-test.netlify.app/tags/staticsitegenerator/</link>
+      <link>https://mt32.net/tags/staticsitegenerator/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/staticsitegenerator/</guid>
+      <guid>https://mt32.net/tags/staticsitegenerator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uselss</title>
-      <link>https://mtorials-test.netlify.app/tags/uselss/</link>
+      <link>https://mt32.net/tags/uselss/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/uselss/</guid>
+      <guid>https://mt32.net/tags/uselss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>https://mtorials-test.netlify.app/tags/web/</link>
+      <link>https://mt32.net/tags/web/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/web/</guid>
+      <guid>https://mt32.net/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://mtorials-test.netlify.app/tags/website/</link>
+      <link>https://mt32.net/tags/website/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mtorials-test.netlify.app/tags/website/</guid>
+      <guid>https://mt32.net/tags/website/</guid>
       <description></description>
     </item>
     
