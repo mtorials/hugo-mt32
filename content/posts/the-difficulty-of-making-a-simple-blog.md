@@ -53,3 +53,8 @@ Netlify is a tool to deploy websites easily. You just have to connect it to a Gi
 ## Conculsion
 
 Eventually I sticked to this method and I am very happy about it. The integration with GitHub is great and works like a universal interface to work together with other apps like [Forestry](https://forestry.io/). It is super convenient! I can write new articles with every device and the chages will be online only second later. There are definitely other solutions that can work better in other use cases, but for me this seems like the best one! 
+
+
+## Update
+
+I'm running this blog on my VPS now automaticly build and deployed with the Gitlab CI.
