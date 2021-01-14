@@ -30,8 +30,6 @@ Downsides!!!!! - SSR
 
 ## Hugo
 
-![hugo](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
-
 After too much frustration about not being able to easily deploy an already finished website I suspended this project. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website anyway. But I did not plan on giving up completely.
 
 When I discovered Hugo by coincidence I was interested, because it neither is a CMS in the traditional way nor has it the need for an API and JavaScript/AJAX on the frontend to work. It instead is a static side generator. It renders the whole website before you deploy it. That does mean that static side generator are not suited for use cases in which you have to update your content regularly. But in case of a blog this not necessary. You only have to deploy the website when you post something new.
