@@ -4,7 +4,7 @@ date = 2020-07-10T22:00:00Z
 description = "Web technologies are getting more and more complex. This is how I found my way to this blog."
 tags = ["hugo", "blog", "webdev"]
 title = "The difficulty of making a simple blog"
-draft = true
+draft = false
 +++
 # The start of mt32.net
 
