@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mt32.net/posts/configuring-x-server-multi-gpu-setup/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/linux/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/manjaro/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/posts/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/xorg/</loc>
+    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/blog/</loc>
+    <lastmod>2020-07-10T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/hugo/</loc>
+    <lastmod>2020-07-10T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/posts/the-difficulty-of-making-a-simple-blog/</loc>
+    <lastmod>2020-07-10T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/webdev/</loc>
+    <lastmod>2020-07-10T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mt32.net/tags/beginner/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
@@ -18,51 +68,6 @@
   </url>
   
   <url>
-    <loc>https://mt32.net/posts/hugo/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/posts/layout/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/meta/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/posts/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/staticsitegenerator/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/uselss/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/web/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mt32.net/tags/website/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mt32.net/about/</loc>
     <lastmod>2020-07-08T20:05:51+02:00</lastmod>
   </url>
@@ -73,7 +78,16 @@
   </url>
   
   <url>
+    <loc>https://mt32.net/tags/meta/</loc>
+    <lastmod>2020-07-08T20:05:51+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mt32.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mt32.net/tags/gnu/linux/</loc>
   </url>
   
 </urlset>

@@ -8,30 +8,32 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jul 2020 20:05:51 +0200</lastBuildDate><atom:link href="https://mt32.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Configuring an X Server Multi GPU Setup</title>
+      <link>https://mt32.net/posts/configuring-x-server-multi-gpu-setup/</link>
+      <pubDate>Thu, 16 Jul 2020 22:00:00 +0000</pubDate>
+      
+      <guid>https://mt32.net/posts/configuring-x-server-multi-gpu-setup/</guid>
+      <description>Multi GPU on Manjaro This blog post is about how I made my multi monitor and multi gpu setup work with Manjaro Linux.
+Disclamer: This is how I was able to fix this problem. This may work for others, but I can not guarantee this. This is NOT a guide!
+My Setup I use a multi monitor setup with a discrete graphics card (1050ti) and an integrated Intel HD Graphics. Manjaro, the linux distribution of my choice, offers not only proprietary Nvidia drivers but also special drivers to work with Intel and Nvidia together.</description>
+    </item>
+    
+    <item>
+      <title>The difficulty of making a simple blog</title>
+      <link>https://mt32.net/posts/the-difficulty-of-making-a-simple-blog/</link>
+      <pubDate>Fri, 10 Jul 2020 22:00:00 +0000</pubDate>
+      
+      <guid>https://mt32.net/posts/the-difficulty-of-making-a-simple-blog/</guid>
+      <description>The start of mt32.net Wordpress? No! When I first had the idea of creating a website to share my ideas and problems related to programming, I already knew of the most important rule for programmers for a long time: Don&amp;rsquo;t reinvent the wheel! Of course I had heard of wordpress but I already had tried it out and neither the fact that it uses PHP nor the idea of selecting a simple theme for my project was a plus point for me at the time.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://mt32.net/posts/hello-world/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mt32.net/posts/hello-world/</guid>
       <description>Hello World Ok! So here is something in front of this picture! Is the margin right? And here is some more text but it is not anymore at the same place relative to the picture!</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://mt32.net/posts/hugo/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt32.net/posts/hugo/</guid>
-      <description>This Website I wanted a way to create a website like this. A way to lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
-    </item>
-    
-    <item>
-      <title>Layout</title>
-      <link>https://mt32.net/posts/layout/</link>
-      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://mt32.net/posts/layout/</guid>
-      <description>To Save The Layout! lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</description>
     </item>
     
     <item>

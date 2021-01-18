@@ -26,15 +26,13 @@ The first and finished version of this page was a overengineered website with lo
 
 Ok, I was not actually using it. After programming this for months I tried to deploy it and I failed. I did not know how to use docker properly but I had to use it for Prisma and the database. Also setting up my node project for deployment on my virtual server (VPS) was harder then I thought it would be. The extra step from TypeScript to JavaScript did not help there either.
 
-Downsides!!!!! - SSR
-
 ## Hugo
 
 After too much frustration about not being able to easily deploy an already finished website I suspended this project. I never liked the idea of using the JavaScript ecosystem and my terrible code for the final website anyway. But I did not plan on giving up completely.
 
 When I discovered Hugo by coincidence I was interested, because it neither is a CMS in the traditional way nor has it the need for an API and JavaScript/AJAX on the frontend to work. It instead is a static side generator. It renders the whole website before you deploy it. That does mean that static side generator are not suited for use cases in which you have to update your content regularly. But in case of a blog this not necessary. You only have to deploy the website when you post something new.
 
-Also Hugo does not rely on the JavaScript ecosystem and to write my own theme I only had to learn a few line of the Go HTML Templating Language and not a whole JavaScript framework.
+Also Hugo does not rely on the JavaScript ecosystem and to write my own theme I only had to learn a few lines of the Go HTML Templating Language and not a whole JavaScript framework.
 
 ## Continuous Deployment
 
