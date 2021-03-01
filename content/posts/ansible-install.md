@@ -1,9 +1,9 @@
 ---
-title: "Ansible"
+title: "Install Ansible"
 date: 2020-07-10
 draft: false
 description: "Ansible Opensource automation platform"
-tags: ["opensource", "automation", "ssh", "playbooks", "installation"]
+tags: ["opensource", "automation", "ssh", "installation"]
 author: "ShowMeYourSkil"
 ---
 
@@ -13,7 +13,7 @@ Hey, in this articel I would like to tell you something about Ansible and how yo
 
 # What is ansible?
 
-Ansible is a automation platform to automate process. Example like install full automaticli vms oder windows update and more..
+Ansible is a automation platform to automate process. Example like install full automatic Virtual Machines oder Windows updates and more..
 It work with the language yml. You can create "Playbooks" through which an order is executed.
 
 # How to Install Ansbile.
@@ -27,6 +27,6 @@ Example OS: Debian10
 5. `$ sudo apt update`
 6. `$ sudo apt install ansible`
 7. Check the version: `ansible --version`
-
+8. 
 In my next article I will start with the playbooks. 
 Thanks for read my articel :D
