@@ -1,6 +1,6 @@
 ---
 title: "Install Ansible"
-date: 2020-07-10
+date: 2021-03-1
 draft: false
 description: "Ansible Opensource automation platform"
 tags: ["opensource", "automation", "ssh", "installation"]
