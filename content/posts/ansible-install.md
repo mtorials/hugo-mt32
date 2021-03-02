@@ -20,7 +20,7 @@ It work with the language yml. You can create "Playbooks" through which an order
 
 Example OS: Debian10
 
-1. Open: `/ect/apt/sources.list`
+1. Open: `nano /ect/apt/sources.list`
 2. Paste this source `deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main`
 3. Close this file
 4. Run `$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367`
