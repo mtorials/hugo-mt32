@@ -27,6 +27,6 @@ Example OS: Debian10
 5. `$ sudo apt update`
 6. `$ sudo apt install ansible`
 7. Check the version: `ansible --version`
-8. 
+
 In my next article I will start with the playbooks. 
 Thanks for read my articel :D
