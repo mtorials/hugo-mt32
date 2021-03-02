@@ -9,7 +9,7 @@ author: "ShowMeYourSkil"
 
 # Ansible
 
-Hey, in this articel I would like to tell you something about Ansible and how you can install it. 
+Hey, in this article I would like to tell you something about Ansible and how you can install it. 
 
 # What is ansible?
 
