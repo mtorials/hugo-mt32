@@ -9,12 +9,12 @@ author: "ShowMeYourSkil"
 
 # Ansible
 
-Hey, in this article I would like to tell you something about Ansible and how you can install it. 
+Hey, in this article I would like to tell you something about Ansible and how you can installing it. 
 
 # What is ansible?
 
 Ansible is a automation platform to automate process. Example like install full automatic Virtual Machines oder Windows updates and more..
-It work with the language yml. You can create "Playbooks" through which an order is executed.
+It works with the language yml. You can create "Playbooks" through which an order is executed.
 
 # How to Install Ansbile.
 
@@ -30,5 +30,4 @@ Example OS: Debian10
 8. 
 ![image](https://user-images.githubusercontent.com/39274150/109625598-cbf63b00-7b3f-11eb-8f20-769357560562.png)
 
-In my next article I will start with the playbooks. 
-Thanks for read my articel :D
+
