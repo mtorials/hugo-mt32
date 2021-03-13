@@ -13,7 +13,7 @@ After an update the GRUB boot manager did not want to show up after starting the
 
 To fix this open `/etc/default/grub` with `sudo nano /etc/default/grub`.
 If you see no GRUB screen at all on boot comment the line `GRUB_TIMEOUT_STYLE=hidden` so that it looks like this `#GRUB_TIMEOUT_STYLE=hidden`.
-To make sure GRUB detects the OSs installed on your machine add the line `GRUB_DISABLE_OS_PROPER=false`.
+To make sure GRUB detects the OSs installed on your machine add the line `GRUB_DISABLE_OS_PROBER=false`.
 After this update grub with `sudo update-grub` (it can take a while). Now just reboot!
 
 ## Manually checking for OSs
