@@ -1,7 +1,7 @@
 ---
-title: "LinageOS 17.1: Carrier Services keeps stopping"
+title: ""
 date: 2021-01-23
-draft: true
+draft: false
 description: "How I fixed 'Carrier Services keeps stopping' on LineageOS 17.1"
 tags: ["LinageOS", "android", "sms"]
 author: "mtorials"
