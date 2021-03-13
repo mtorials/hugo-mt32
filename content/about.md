@@ -13,7 +13,7 @@ tags: ["meta"]
 Have you ever had a computer related problem twice? The goal of this website is to
 create writeups for every of these tricky problems related to programming, hacking (with hardware),
 software in general and every other tech topic. Even if there is no one else with the same problem,
-we will not have to struggle twice!
+we will not have to struggle twice!!
 
 There will be also other content realted to personel projects with a focus on web dev and maybe game dev too.
 
@@ -31,7 +31,7 @@ and hopefully occasional guest writers! We are two hobby programmers with some e
 If you want to contribute to this website, visit the github page and open a issue or pull request!
 
 I hope you find this website helpful.
-Thank you for reading!
+And thank you for reading!
 
 [universum](http://universegame.de/)
 ![universum](https://mtorials.de/stuff/universeicon0001.png)
