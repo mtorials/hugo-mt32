@@ -13,8 +13,8 @@ Hey, in this article I would like to tell you something about Ansible and how yo
 
 # What is ansible?
 
-Ansible is a automation platform to automate process. Example like install full automatic Virtual Machines oder Windows updates and more..
-It works with the language yml. You can create "Playbooks" through which an order is executed.
+Ansible is a automation platform to automate process.For example like install full automatic Virtual Machines oder Windows updates and more...
+It works with the language yml. You can create "Playbooks" through which an order of commands is executed.
 
 # How to Install Ansbile.
 
