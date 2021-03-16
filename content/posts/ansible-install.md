@@ -1,6 +1,6 @@
 ---
 title: "Install Ansible"
-date: 2021-03-1
+date: 2021-02-
 draft: false
 description: "Ansible Opensource automation platform"
 tags: ["opensource", "automation", "ssh", "installation"]
@@ -30,4 +30,7 @@ Example OS: Debian10
 8. 
 ![image](https://user-images.githubusercontent.com/39274150/109625598-cbf63b00-7b3f-11eb-8f20-769357560562.png)
 
+## The Author
+
+See ShowMeYourSkil on [github](https://github.com/showmeyourskil)!
 
