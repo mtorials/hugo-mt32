@@ -34,7 +34,7 @@ Example OS: Windows 10
 4. Execute the Setup file
 5. Follow the setup instructions
 
-# How to install a Virtuelmachine
+# How to install a Virtualmachine
 
 1. Open the Virtualbox
 2. Click the button `new` to create a new machine
