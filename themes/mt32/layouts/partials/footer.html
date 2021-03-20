@@ -13,23 +13,4 @@
         <a class="txtDark" href="{{ .Site.Params.license }}">license</a><br>
         <a class="txtDark">{{ .Site.Params.disclamer }}</a>
     </div>
-    <script> 
-        window.addEventListener('load', () => { 
-          registerSW(); 
-        }); 
-      
-        // Register the Service Worker 
-        async function registerSW() { 
-          if ('serviceWorker' in navigator) { 
-            try { 
-              await navigator 
-                    .serviceWorker 
-                    .register('service-worker.js'); 
-            } 
-            catch (e) { 
-              console.log('SW registration failed'); 
-            } 
-          } 
-        } 
-     </script>
 </footer>
