@@ -1,7 +1,7 @@
 ---
 title: "How to store git credentials in Linux"
 date: 2021-03-20
-draft: true
+draft: false
 description: "Easy explanation for an unsafe way of storing git credentials and avoid password prompt"
 tags: ["git", "credentials", "linux"]
 author: "UniversumGames"
