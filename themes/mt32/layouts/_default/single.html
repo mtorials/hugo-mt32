@@ -26,7 +26,9 @@
                 <div class="orange headdiv gap">
                     <u><a class="heading">Further Reading</a></u>
                 </div>
-                {{ with .Site.GetPage "/posts" }}{{ range .Pages.ByDate.Reverse }}
+                {{ with .Site.GetPage "/posts" }}
+                {{ range $index, $element := .Pages.ByDate.Reverse }}
+                {{ if lt $index 4 }}
                     <div class="postlink txtWhite dark gap">
                         <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
                         <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
@@ -42,6 +44,7 @@
                             <a class="tag orange">#{{ . }}</a>
                         {{ end }}
                     </div>
+                    {{ end }}
                 {{ end }} {{ end }}
             </aside>
         </div>
