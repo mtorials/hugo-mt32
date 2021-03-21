@@ -25,7 +25,9 @@ After I installed Manjaro and everything worked fine with the free drivers I ins
 
 I went on trying different drivers. I got the to the Nvidia card connected monitors eventually to work by applying the Nvidia X server configuration with this command:
 
-    nvidia-xconfig
+```sh
+nvidia-xconfig
+```
 
 But then the monitors connected to the integrated graphics stayed black. I thought that I might have to configure the X server myself. This [forum post](https://forum.manjaro.org/t/how-to-add-a-second-monitor-connected-to-the-integrated-graphics-card-not-the-dedicated-one/107158) confirmed that.
 
@@ -39,12 +41,14 @@ In copied the Nvidia configuration file and copied it from /etc/X11/xorg.conf to
 
 I copied the "Device" section and then edited it to make it look like this:
 
-    Section "Device"
-        Identifier     "Device1"
-        Driver         "intel"
-        VendorName     "Intel Corporation"
-        BusID          "PCI:00:02.0"
-    EndSection
+```txt
+Section "Device"
+    Identifier     "Device1"
+    Driver         "intel"
+    VendorName     "Intel Corporation"
+    BusID          "PCI:00:02.0"
+EndSection
+```
 
 I found the bus ID of the Intel graphics with the command:
 
@@ -58,7 +62,9 @@ Sometimes you have to also enable the monitors. I was able to do this with the g
 
 If you want to know whether your second device (graphics (card)) is detected or not, you can use
 
-     xrandr --listproviders
+```txt
+xrandr --listproviders
+```
 
 ## Problems Remaining
 

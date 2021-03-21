@@ -5,21 +5,21 @@ theme = "mt32"
 
 [params]
   description = "The mt32.net blog!"
-  disclamer = "The content of this website is licensed under the CC BY-NC-SA 4.0 license. No warrenties apply."
+  disclaimer = "The content of this website is licensed under the CC BY-NC-SA 4.0 license. No warrenties apply."
   license = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   github = "https://github.com/mtorials"
-  youtube = "https://www.youtube.com/channel/UCe3IgjqCm5YZ6YSeAkohnNA"
-  twitter = "https://twitter.com/universumgames"
-
+  website = "https://mtorials.de/"
 
 [markup]
   [markup.highlight]
+    anchorLineNos = true
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
     hl_Lines = ""
+    lineAnchors = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "solarized-dark256"
+    style = "monokai"
     tabWidth = 4

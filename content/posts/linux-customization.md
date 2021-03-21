@@ -27,13 +27,13 @@ My journey started when I wanted to have blur. I really like the look of transpa
 
 Polybar is - as the name implies - a bar (panel). The really cool thing about it compared to for example the xfce panel is that you can write your own scripts for it. The output of a command will then be displayed. This perfectly represents the UNIX philosophy and makes "a polybar" quite extensible. Take this for example:
 
-```sh
+```bash
 curl -s https://api.github.com/users/mtorials | jq '.followers'
 ```
 
 This very short script outputs the my github follower count, 5... With a few lines of config we can write our own Polybar module out of this and watch my - or your - follower count fo up - or down.
 
-```ìni
+```ini
 [module/githubcounter]
 type = custom/script
 exec = curl -s https://api.github.com/users/mtorials | jq '.followers'

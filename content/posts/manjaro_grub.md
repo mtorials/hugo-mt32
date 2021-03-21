@@ -11,14 +11,40 @@ author: "mtorials"
 
 After an update the GRUB boot manager did not want to show up after starting the system. That meant that I could only boot Manjaro.
 
-To fix this open `/etc/default/grub` with `sudo nano /etc/default/grub`.
-If you see no GRUB screen at all on boot comment the line `GRUB_TIMEOUT_STYLE=hidden` so that it looks like this `#GRUB_TIMEOUT_STYLE=hidden`.
-To make sure GRUB detects the OSs installed on your machine add the line `GRUB_DISABLE_OS_PROBER=false`. Then exit nano with CTRL+O and CTRL+X.
-After this update grub with `sudo update-grub` (it can take a while). Now just reboot!
+To fix this open /etc/default/grub with:
+
+```sh
+sudo nano /etc/default/grub
+```
+
+If you see no GRUB screen at all on boot comment the line GRUB_TIMEOUT_STYLE=hidden so that it looks like this:
+
+```txt
+#GRUB_TIMEOUT_STYLE=hidden
+```
+
+To make sure GRUB detects the OSs installed on your machine add the line:
+
+```txt
+GRUB_DISABLE_OS_PROBER=false
+```
+
+Then exit nano with CTRL+O and CTRL+X.
+After this update grub with 
+
+```sh
+sudo update-grub
+```
+
+(It can take a while). Now just reboot!
 
 ## Manually checking for OSs
 
-If you want to manually check for OSs on your machine use `sudo os-proper`. 
+If you want to manually check for OSs on your machine use:
+
+```sh
+sudo os-proper
+```
 
 ## Source
 
