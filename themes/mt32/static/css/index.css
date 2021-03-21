@@ -37,6 +37,7 @@ body {
 
 .content-inner {
     max-width: 100ch;
+    overflow: auto;
 }
 
 .follow {
@@ -67,7 +68,6 @@ body {
 
 .content {
     padding: 1em;
-
 }
 
 .post-content {
