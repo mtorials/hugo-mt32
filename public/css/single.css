@@ -1,8 +1,0 @@
-.side {
-    display: flex;
-    flex-direction: column;
-}
-
-.gap {
-    margin-bottom: 1em;
-}
