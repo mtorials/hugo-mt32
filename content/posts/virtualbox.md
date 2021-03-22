@@ -46,6 +46,10 @@ Example OS: Windows 10
 
 # How to start a Virtualmachine
 
+1. Now you habe finished install the virtual box.
+2. Now you must select the VM and click on the button in the top right `start`.
+3. And now you are running your first VM ;)
+
 # The Author
 
 **This was my articel about the virtualbox. Thanks for reading! 
