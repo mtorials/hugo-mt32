@@ -44,6 +44,8 @@ Example OS: Windows 10
 4. Now you must set the Memory size
 5. Congratulations! Now you have your own virtual machine.
 
+# How to start a Virtualmachine
+
 # The Author
 
 **This was my articel about the virtualbox. Thanks for reading! 
