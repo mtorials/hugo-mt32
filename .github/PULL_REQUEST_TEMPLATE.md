@@ -7,8 +7,8 @@
 
 # Information for Contributing
 
-* [ ]  Change Code or Tex8
-* [ ]  Add new Code or Tex
+* [ ]  Change Code or Text
+* [ ]  Add new Code or Text
 
 # Pull Request Description
 
