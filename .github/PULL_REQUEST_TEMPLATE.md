@@ -26,4 +26,4 @@
 # Contribution
 
 Please read our [Contributing](https://github.com/mtorials/hugo-mt32/blob/master/CONTRIBUTING.md) before submitting a pull_request.
-With your pull_request you agree that our [license](https://creativecommons.org/licenses/by-nc-sa/4.0/) is subject to. We ask you to read it before you make the pull_request. 
+With your pull_request you agree that our [license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
