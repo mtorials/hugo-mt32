@@ -1,10 +1,3 @@
-
-# License
-###### The [license](https://github.com/mtorials/hugo-mt32/blob/master/CONTRIBUTING.md)
-* [ ] I agree with the license
-* [ ] I do not agree with the license
-
-
 # Information for Contributing
 
 * [ ]  Change Code or Text
