@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/39274150/111981613-30d1ff00-8b08-11eb-8767-b89f2e0970be.png"/>
 <h1> 🌐 https://mt32.net</h1>
-<h2>The blog for all computer interested</h2>
+<h2>A blog about programming, hardware and tech.</h2>
 
 # About mt32.net
 
