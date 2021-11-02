@@ -43,7 +43,7 @@ sudo update-grub
 If you want to manually check for OSs on your machine use:
 
 ```sh
-sudo os-proper
+sudo os-prober
 ```
 
 ## Source
