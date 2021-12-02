@@ -1,24 +1,26 @@
 variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+    GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
-  - build
-  - deploy
+    - build
+    - deploy
 
 buid:
-  stage: build
-  image: registry.gitlab.com/pages/hugo:latest
-  script:
-    - hugo
-  artifacts:
-    paths:
-      - public
+    stage: build
+    image: registry.gitlab.com/pages/hugo:latest
+    script:
+        - hugo
+    artifacts:
+        paths:
+            - public
+    tags:
+        - vps
 
 deploy:
-  stage: deploy
-  tags:
-    - vps
-  script:
-    - cp -r public /var/www/mt32
-  only:
-    - master
+    stage: deploy
+    tags:
+        - vps
+    script:
+        - cp -r public /var/www/mt32
+    only:
+        - master
