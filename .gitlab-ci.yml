@@ -13,8 +13,6 @@ buid:
     artifacts:
         paths:
             - public
-    tags:
-        - vps
 
 deploy:
     stage: deploy
