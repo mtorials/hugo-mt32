@@ -21,7 +21,7 @@ There will be also other content related to personal projects with a focus on we
 
 I plan to make this theme, and the whole website open source like most of my projects!
 
-This blog is run by [mtorials](https://mtorials.de/), [universum](http://universegame.de/)
+This blog is run by [mtorials](https://mtorials.de/), [Tom Arlt aka. Universum](http://universegame.de/)
 and hopefully occasional guest writers! We are two hobby programmers with some experience in web technologies and game development as well as embedded devices like Arduinos and ESPs. Doing it as a hobby we both do not have extensive knowledge in any of these fields, but we think even our experience is worth sharing!
 
 ### Contributing
@@ -34,6 +34,6 @@ I hope you find this website helpful.
 And thank you for reading!
 
 [universum](http://universegame.de/)
-![universum](https://mtorials.de/stuff/universeicon0001.png)
+![universum](/images/universum.png)
 [mtorials](https://mtorials.de/)
 ![mtorials](https://mtorials.de/logo.png)
