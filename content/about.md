@@ -35,13 +35,12 @@ And thank you for reading!
 
 
 <div style="display: flex">
-<div>
-[universum](http://universegame.de/)
-<img src="/images/universum.png" alt="universum" style="width: 100px">
-</div>
-
-<div>
-[mtorials](https://mtorials.de/)
-![mtorials](https://mtorials.de/logo.png)
-</div>
+    <a href="(http://universegame.de/">
+        <p>universum</p>
+        <img src="/images/universum.png" alt="universum" style="width: 100px">
+    </a>
+    <a href="https://mtorials.de/">
+        <p>mtorials</p>
+        <img src="https://mtorials.de/logo.png" alt="mtorials" style="width: 100px">
+    </a>
 </div>
