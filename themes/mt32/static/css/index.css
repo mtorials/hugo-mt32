@@ -39,7 +39,6 @@ body {
     border-radius: 15px;
     color: white;
     flex: 30ch;
-    overflow: auto;
 }
 
 .content-inner {
