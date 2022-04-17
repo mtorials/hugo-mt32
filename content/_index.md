@@ -14,6 +14,6 @@ we will not have to struggle twice!
 
 There will be also other content related to personal projects with a focus on web dev and maybe game dev too.
 
-This blog is run by [mtorials](https://mtorials.de/) and [universum](http://universegame.de/) with occasional guest writers!
+This blog is run by [mtorials](https://mtorials.de/) and [Tom aka. universum](http://universegame.de/) with occasional guest writers!
 
 Check out our own [Gitlab server](https://git.mtorials.de) and our Github Profiles: [mtorials](https://github.com/mtorials) and [Universum(games)](https://github.com/universumgames)
