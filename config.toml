@@ -5,7 +5,7 @@ theme = "mt32"
 
 [params]
   description = "The mt32.net blog!"
-  disclaimer = "The content of this website is licensed under the CC BY-NC-SA 4.0 license. No warrenties apply."
+  disclaimer = "The content of this website is licensed under the CC BY-NC-SA 4.0 license. No warranties apply."
   license = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   github = "https://github.com/mtorials"
   website = "https://mtorials.de/"
@@ -23,3 +23,5 @@ theme = "mt32"
     noClasses = true
     style = "monokai"
     tabWidth = 4
+  [markup.goldmark]
+    unsafe = true
