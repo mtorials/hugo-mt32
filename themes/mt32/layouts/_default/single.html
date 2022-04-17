@@ -4,7 +4,7 @@
     <body>
         {{- partial "header.html" . -}}
         <div class="box">
-            <div class="postlink orange">
+            <div class="postlink orange info">
                 <div class="follow">
                     <h1>{{ .Title }}</h1>
                     <hr />
@@ -17,7 +17,7 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="postlink span-wide dark">
+            <div class="postlink span-wide dark content">
                 {{- block "main" . }}
                 <div class="content-inner">{{ .Content }}</div>
                 {{- end }}

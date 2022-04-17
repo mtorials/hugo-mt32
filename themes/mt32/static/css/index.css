@@ -20,13 +20,18 @@ body {
 }
 
 .box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
     gap: 1em 1em;
-
     background-color: white;
     border-radius: 15px;
     padding: 0.6em;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info {
+    flex: 15vw;
 }
 
 .postlink {
@@ -48,15 +53,15 @@ body {
 }
 
 .span {
-    grid-column: span 2;
+    /* grid-column: span 2; */
 }
- 
+
 .span-wide {
-    grid-column: span 2;
+    /* grid-column: span 2; */
 }
 
 .span-across {
-    grid-column: 1/-1;
+    /* grid-column: 1/-1; */
 }
 
 .tag {
@@ -68,6 +73,7 @@ body {
 
 .content {
     padding: 1em;
+    flex: max(50vw, 100ch);
 }
 
 .post-content {
