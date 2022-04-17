@@ -7,45 +7,39 @@
             <div class="postlink orange">
                 <div class="follow">
                     <h1>{{ .Title }}</h1>
-                    <hr>
+                    <hr />
                     <a><i>by {{ .Params.author }}, {{ .Date.Format "2006-01-02" }}</i></a>
-                    <hr>
+                    <hr />
                     <p>{{ .Params.description }}</p>
-                    <hr>
+                    <hr />
                     {{ range .Params.tags }}
-                        <a class="tag dark">#{{ . }}</a>
+                    <a class="tag dark">#{{ . }}</a>
                     {{ end }}
                 </div>
             </div>
             <div class="postlink span-wide dark">
                 {{- block "main" . }}
-                    <div class="content-inner">{{ .Content }}</div>
+                <div class="content-inner">{{ .Content }}</div>
                 {{- end }}
             </div>
             <aside class="side">
                 <div class="orange headdiv gap">
                     <u><a class="heading">Further Reading</a></u>
                 </div>
-                {{ with .Site.GetPage "/posts" }}
-                {{ range $index, $element := .Pages.ByDate.Reverse }}
-                {{ if lt $index 4 }}
-                    <div class="postlink txtWhite dark gap">
-                        <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
-                        <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
-                        <p>
-                            {{ .Params.description }}
-                        </p>
-                        <hr>
-                        <div class="post-content">
-                            {{ .Content }}
-                        </div>
-                        <hr>
-                        {{ range .Params.tags }}
-                            <a class="tag orange">#{{ . }}</a>
-                        {{ end }}
-                    </div>
+                {{ with .Site.GetPage "/posts" }} {{ range $index, $element := .Pages.ByDate.Reverse }} {{ if lt $index
+                4 }}
+                <div class="postlink txtWhite dark gap">
+                    <a class="hSmall txtWhite" href="{{.Permalink}}">{{.Title}}</a>
+                    <a class="small txtWhite"> | {{.Date.Format "2006-01-02"}} by {{ .Params.author }}</a>
+                    <p>{{ .Params.description }}</p>
+                    <hr />
+                    <div class="post-content">{{ .Content }}</div>
+                    <hr />
+                    {{ range .Params.tags }}
+                    <a class="tag orange">#{{ . }}</a>
                     {{ end }}
-                {{ end }} {{ end }}
+                </div>
+                {{ end }} {{ end }} {{ end }}
             </aside>
         </div>
         {{- partial "footer.html" . -}}

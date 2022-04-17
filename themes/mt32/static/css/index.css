@@ -1,5 +1,5 @@
 * {
-    scrollbar-color: orangered #1E2227;
+    scrollbar-color: orangered #1e2227;
     color: white;
 }
 
@@ -12,8 +12,8 @@ img {
 }
 
 body {
-    font-family: 'Inconsolata', monospace;
-    background-color: #1E2227;
+    font-family: "Inconsolata", monospace;
+    background-color: #1e2227;
     padding: 0;
     margin: 0;
     color: white;
@@ -97,7 +97,7 @@ body {
 }
 
 .dark {
-    background-color: #1E2227;
+    background-color: #1e2227;
 }
 
 .orange {
