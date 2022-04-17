@@ -35,7 +35,7 @@ And thank you for reading!
 
 
 [universum](http://universegame.de/)
-<img src="/images/universum.png" alt="universum" width="100px"/>
+<img src="/images/universum.png" alt="universum" width="100px">
 
 [mtorials](https://mtorials.de/)
 ![mtorials](https://mtorials.de/logo.png)
