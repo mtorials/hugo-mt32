@@ -1,9 +1,9 @@
 ---
-title: "An Introduction to CI/CD"
+title: "An Introduction to CI/CD (German)"
 date: 2022-04-16
 draft: false
-description: "An introduction to CI/CD"
-tags: ["ci/cd", "automation", "introduction", "setup"]
+description: "An introduction to CI/CD in german (english article following soon)"
+tags: ["de", "ci/cd", "automation", "introduction", "setup"]
 author: "UniversumGames"
 lang: "de"
 ---
