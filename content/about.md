@@ -33,7 +33,9 @@ If you want to contribute to this website, visit the github page and open a issu
 I hope you find this website helpful.
 And thank you for reading!
 
+
 [universum](http://universegame.de/)
-![universum](/images/universum.png)
+<img src="/images/universum.png" alt="universum" width="100px"/>
+
 [mtorials](https://mtorials.de/)
 ![mtorials](https://mtorials.de/logo.png)
