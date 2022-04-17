@@ -35,11 +35,11 @@ And thank you for reading!
 
 
 <div style="display: flex">
-    <a href="(http://universegame.de/">
+    <a href="http://universegame.de/" style="margin: 2ch" target="_blank">
         <p>universum</p>
         <img src="/images/universum.png" alt="universum" style="width: 100px">
     </a>
-    <a href="https://mtorials.de/">
+    <a href="https://mtorials.de/" style="margin: 2ch" target="_blank">
         <p>mtorials</p>
         <img src="https://mtorials.de/logo.png" alt="mtorials" style="width: 100px">
     </a>
