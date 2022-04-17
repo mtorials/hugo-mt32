@@ -34,8 +34,14 @@ I hope you find this website helpful.
 And thank you for reading!
 
 
+<div style="display: flex">
+<div>
 [universum](http://universegame.de/)
-<img src="/images/universum.png" alt="universum" width="100px">
+<img src="/images/universum.png" alt="universum" style="width: 100px">
+</div>
 
+<div>
 [mtorials](https://mtorials.de/)
 ![mtorials](https://mtorials.de/logo.png)
+</div>
+</div>
