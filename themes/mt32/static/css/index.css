@@ -38,6 +38,8 @@ body {
     padding: 1.5em;
     border-radius: 15px;
     color: white;
+    flex: 30ch;
+    overflow: auto;
 }
 
 .content-inner {
