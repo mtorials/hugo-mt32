@@ -24,4 +24,5 @@ theme = "mt32"
     style = "monokai"
     tabWidth = 4
   [markup.goldmark]
-    unsafe = true
+    [markup.goldmark.renderer]
+      unsafe = true
