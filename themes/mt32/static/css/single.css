@@ -1,6 +1,6 @@
 .side {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     overflow: auto;
     flex: max(2vw, 40ch);
 }
