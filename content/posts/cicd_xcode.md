@@ -3,14 +3,14 @@ title: "Using XCode with CI/CD"
 date: 2022-05-23
 draft: true
 description: "How you can use an XCode installation with a local Gitlab Installation"
-tags: ["ci/cd", "automation", "xcode", "gitlab, "gitlab-runner"]
+tags: ["ci/cd", "automation", "xcode", "gitlab", "gitlab-runner"]
 author: "UniversumGames"
 lang: "en"
 ---
 
-- [Introduction](#introduction)
-  - [Warnings for this tutorial](#warnings-for-this-tutorial)
-- [Prerequisites](#prerequisites)
+-   [Introduction](#introduction)
+    -   [Warnings for this tutorial](#warnings-for-this-tutorial)
+-   [Prerequisites](#prerequisites)
 
 # Introduction
 
